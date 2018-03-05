@@ -216,7 +216,7 @@
 				  <ul class="slides">
 				    <li>
 				      <p>I have already heard back about the internship I applied through Job Finder, that's the fastest job reply I've ever gotten and it's so much better than waiting weeks to hear back.
-				      <span>Collis Ta’eed, Envato</span></p>
+				      <span>Collis Ta’eed, CNN</span></p>
 				    </li>
 
 				    <li>

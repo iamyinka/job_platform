@@ -9,7 +9,7 @@
 					<li><a class="gplus" href="#"><i class="icon-gplus"></i></a></li>
 					<li><a class="linkedin" href="#"><i class="icon-linkedin"></i></a></li>
 				</ul>
-				<div class="copyrights">©  Copyright 2018 by <a href="#">Creative Design</a>. All Rights Reserved.</div>
+				<div class="copyrights">&copy;  Creative Design by <a href="#">Yinka Ash</a>. All Rights Reserved.</div>
 			</div>
 		</div>
 	</div>
