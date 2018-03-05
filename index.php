@@ -58,7 +58,7 @@
 		<ul class="job-list">
 
 			<li class="highlighted"><a href="job-page.html">
-				<img src="images/job-list-logo-01.png" alt="">
+				<img src="https://careerfy.net/demo/wp-content/uploads/employer-07-210x204.png" alt="">
 				<div class="job-list-content">
 					<h4>Marketing Coordinator - SEO / SEM Experience <span class="full-time">Full-Time</span></h4>
 					<div class="job-icons">
@@ -72,7 +72,7 @@
 			</li>
 
 			<li><a href="job-page.html">
-				<img src="images/job-list-logo-02.png" alt="">
+				<img src="https://careerfy.net/demo/wp-content/uploads/employer-14-210x204.png" alt="">
 				<div class="job-list-content">
 					<h4>Core PHP Developer for Site Maintenance <span class="part-time">Part-Time</span></h4>
 					<div class="job-icons">
@@ -86,7 +86,7 @@
 			</li>
 
 			<li><a href="job-page.html">
-				<img src="images/job-list-logo-03.png" alt="">
+				<img src="https://careerfy.net/demo/wp-content/uploads/employer-20-210x204.png" alt="">
 				<div class="job-list-content">
 					<h4>Restaurant Team Member - Crew <span class="full-time">Full-Time</span></h4>
 					<div class="job-icons">
@@ -100,7 +100,7 @@
 			</li>
 
 			<li><a href="job-page.html">
-				<img src="images/job-list-logo-04.png" alt="">
+				<img src="https://careerfy.net/demo/wp-content/uploads/employer-02-210x204.png" alt="">
 				<div class="job-list-content">
 					<h4>Power Systems User Experience Designer  <span class="internship">Internship</span></h4>
 					<div class="job-icons">
@@ -114,7 +114,7 @@
 			</li>
 
 			<li><a href="job-page.html">
-				<img src="images/job-list-logo-05.png" alt="">
+				<img src="https://careerfy.net/demo/wp-content/uploads/employer-12-210x204.png" alt="">
 				<div class="job-list-content">
 					<h4>iPhone / Android Music App Development <span class="temporary">Temporary</span></h4>
 					<div class="job-icons">
@@ -157,7 +157,7 @@
 								<span><i class="fa fa-briefcase"></i> Mates</span>
 								<span><i class="fa fa-map-marker"></i> New York</span>
 								<span><i class="fa fa-money"></i> $20 / hour</span>
-								<p>As advertising & content coordinator, you will support our social media team in producing high quality social content for a range of media channels.</p>
+								<p>As advertising &amp; content coordinator, you will support our social media team in producing high quality social content for a range of media channels.</p>
 								<a href="job-page.html" class="button">Apply For This Job</a>
 							</div>
 						</li>
