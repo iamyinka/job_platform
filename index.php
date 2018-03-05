@@ -1,62 +1,52 @@
 <?php include('inc/header.php'); ?>
 
-
-<!-- Banner
+<!-- Slider
 ================================================== -->
-<div id="banner" style="background: url(images/banner-home-01.jpg)">
-	<div class="container">
-		<div class="sixteen columns">
-			
-			<div class="search-container">
+<div class="fullwidthbanner-container">
+	<div class="fullwidthbanner">
+		<ul>
 
-				<!-- Form -->
-				<h2>Find job</h2>
-				<input type="text" class="ico-01" placeholder="job title, keywords or company name" value=""/>
-				<input type="text" class="ico-02" placeholder="city, province or region" value=""/>
-				<button><i class="fa fa-search"></i></button>
+			<!-- Slide 1 -->
+			<li data-fstransition="fade" data-transition="fade" data-slotamount="10" data-masterspeed="300">
 
-				<!-- Browse Jobs -->
-				<div class="browse-jobs">
-					Browse job offers by <a href="browse-categories.html"> category</a> or <a href="#">location</a>
-				</div>
-				
-				<!-- Announce -->
-				<div class="announce">
-					We’ve over <strong>15 000</strong> job offers for you!
+				<!-- <img src="images/banner-01.jpg" alt=""> -->
+				<img src="https://17314-presscdn-0-16-pagely.netdna-ssl.com/extended/wp-content/uploads/sites/3/2016/04/home-header-people-hero.jpg" alt="">
+
+				<div class="caption title sfb" data-x="0" data-y="165" data-speed="400" data-start="800"  data-easing="easeOutExpo">
+					<h2>Explore and be discovered</h2>
 				</div>
 
-			</div>
+				<div class="caption text sfb" data-x="0" data-y="240" data-speed="400" data-start="1200" data-easing="easeOutExpo">
+					<p>Connect directly with and be discovered by the employers <br>who want to hire you.</p>
+				</div>
 
-		</div>
-	</div>
-</div>
+				<div class="caption sfb" data-x="0" data-y="370" data-speed="400" data-start="1600" data-easing="easeOutExpo">
+					<a href="my-account.html" class="slider-button">Get Started</a>
+				</div>
+			</li>
 
+			<!-- Slide 2 -->
+			<li data-transition="slideup" data-slotamount="10" data-masterspeed="800">
+				<img src="http://jobcareer.chimpgroup.com/jobdoor/wp-content/uploads/home-Bg.jpg" alt="">
 
-<!-- Content
-================================================== -->
+				<div class="caption title sfb" data-x="center" data-y="165" data-speed="400" data-start="800"  data-easing="easeOutExpo">
+					<h2>Hire great hourly employees</h2>
+				</div>
 
-<!-- Categories -->
-<div class="container">
-	<div class="sixteen columns">
-		<h3 class="margin-bottom-25">Popular Categories</h3>
-		<ul id="popular-categories">
-			<li><a href="#"><i class="fa fa-line-chart"></i> Accounting / Finance</a></li>
-			<li><a href="#"><i class="fa fa-wrench"></i> Automotive Jobs</a></li>
-			<li><a href="#"><i class="fa fa-building-o"></i> Construction / Facilities</a></li>
-			<li><a href="#"><i class="fa fa-graduation-cap"></i> Education Training</a></li>
-			<li><a href="#"><i class="fa fa-medkit"></i> Healthcare</a></li>
-			<li><a href="#"><i class="fa fa-cutlery"></i> Restaurant / Food Service</a></li>
-			<li><a href="#"><i class="fa fa-globe"></i> Transportation / Logistics</a></li>
-			<li><a href="#"><i class="fa fa-laptop"></i> Telecommunications</a></li>
+				<div class="caption text align-center sfb" data-x="center" data-y="240" data-speed="400" data-start="1200" data-easing="easeOutExpo">
+					<p>Job Platform is most trusted job board, connecting the world's <br> brightest minds with resume database loaded with talents.</p>
+				</div>
+
+				<div class="caption sfb" data-x="center" data-y="370" data-speed="400" data-start="1600" data-easing="easeOutExpo">
+					<a href="add-job.html" class="slider-button">Hire</a>
+					<a href="browse-jobs.html" class="slider-button">Work</a>
+				</div>
+			</li>
+
 		</ul>
-
-		<div class="clearfix"></div>
-		<div class="margin-top-30"></div>
-
-		<a href="browse-categories.html" class="button centered">Browse All Categories</a>
-		<div class="margin-bottom-50"></div>
 	</div>
 </div>
+
 
 
 <div class="container">
@@ -207,31 +197,38 @@
 </div>
 
 
-<!-- Testimonials -->
-<div id="testimonials">
-	<!-- Slider -->
+<!-- Counters -->
+<div id="counters">
 	<div class="container">
-		<div class="sixteen columns">
-			<div class="testimonials-slider">
-				  <ul class="slides">
-				    <li>
-				      <p>I have already heard back about the internship I applied through Job Finder, that's the fastest job reply I've ever gotten and it's so much better than waiting weeks to hear back.
-				      <span>Collis Ta’eed, CNN</span></p>
-				    </li>
 
-				    <li>
-				      <p>Nam eu eleifend nulla. Duis consectetur sit amet risus sit amet venenatis. Pellentesque pulvinar ante a tincidunt placerat. Donec dapibus efficitur arcu, a rhoncus lectus egestas elementum.
-				      <span>John Doe</span></p>
-				    </li>
-				    
-				    <li>
-				      <p>Maecenas congue sed massa et porttitor. Duis placerat commodo ex, ut faucibus est facilisis ac. Donec eleifend arcu sed sem posuere aliquet. Etiam lorem metus, suscipit vel tortor vitae.
-				      <span>Tom Smith</span></p>
-				    </li>
-
-				  </ul>
+		<div class="four columns">
+			<div class="counter-box">
+				<span class="counter">15</span><i>k</i>
+				<p>Job Offers</p>
 			</div>
 		</div>
+
+		<div class="four columns">
+			<div class="counter-box">
+				<span class="counter">4982</span>
+				<p>Members</p>
+			</div>
+		</div>
+
+		<div class="four columns">
+			<div class="counter-box">
+				<span class="counter">768</span>
+				<p>Resumes Posted</p>
+			</div>
+		</div>
+
+		<div class="four columns">
+			<div class="counter-box">
+				<span class="counter">90</span><i>%</i>
+				<p>Clients Who Rehire</p>
+			</div>
+		</div>
+
 	</div>
 </div>
 
@@ -239,7 +236,7 @@
 <!-- Infobox -->
 <div class="infobox">
 	<div class="container">
-		<div class="sixteen columns">Start Building Your Own Job Board Now <a href="my-account.html">Get Started</a></div>
+		<div class="sixteen columns">Start Posting Your Own Job Ads Now <a href="my-account.html">Get Started</a></div>
 	</div>
 </div>
 
@@ -247,59 +244,113 @@
 <!-- Recent Posts -->
 <div class="container">
 	<div class="sixteen columns">
-		<h3 class="margin-bottom-25">Recent Posts</h3>
+		<h3 class="margin-bottom-25">Job Plans & Pricing</h3>
 	</div>
 
 
-	<div class="one-third column">
-
-		<!-- Post #1 -->
-		<div class="recent-post">
-			<div class="recent-post-img"><a href="blog-single-post.html"><img src="images/recent-post-01.jpg" alt=""></a><div class="hover-icon"></div></div>
-			<a href="blog-single-post.html"><h4>Hey Job Seeker, It’s Time To Get Up And Get Hired</h4></a>
-			<div class="meta-tags">
-				<span>October 10, 2015</span>
-				<span><a href="#">0 Comments</a></span>
-			</div>
-			<p>The world of job seeking can be all consuming. From secretly stalking the open reqs page of your dream company to sending endless applications.</p>
-			<a href="blog-single-post.html" class="button">Read More</a>
+	<!-- Plan #1 -->
+	<div class="plan color-1 one-third column">
+		<div class="plan-price">
+			<h3>Start Up</h3>
+			<span class="plan-currency">$</span>
+			<span class="value">19</span>
+			
 		</div>
-
-	</div>
-
-
-	<div class="one-third column">
-
-		<!-- Post #2 -->
-		<div class="recent-post">
-			<div class="recent-post-img"><a href="blog-single-post.html"><img src="images/recent-post-02.jpg" alt=""></a><div class="hover-icon"></div></div>
-			<a href="blog-single-post.html"><h4>How to "Woo" a Recruiter and Land Your Dream Job</h4></a>
-			<div class="meta-tags">
-				<span>September 12, 2015</span>
-				<span><a href="#">0 Comments</a></span>
-			</div>
-			<p>Struggling to find your significant other the perfect Valentine’s Day gift? If I may make a suggestion: woo a recruiter. </p>
-			<a href="blog-single-post.html" class="button">Read More</a>
+		<div class="plan-features">
+			<ul>
+				<li>One Time Fee</li>
+				<li>This Plan Includes 1 Job</li>
+				<li>Non-Highlighted Post</li>
+				<li>Posted For 30 Days</li>
+			</ul>
+			<a class="button" href="#"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
 		</div>
-
 	</div>
 
-	<div class="one-third column">
-
-		<!-- Post #3 -->
-		<div class="recent-post">
-			<div class="recent-post-img"><a href="blog-single-post.html"><img src="images/recent-post-03.jpg" alt=""></a><div class="hover-icon"></div></div>
-			<a href="blog-single-post.html"><h4>11 Tips to Help You Get New Clients Through Cold Calling</h4></a>
-			<div class="meta-tags">
-				<span>August 27, 2015</span>
-				<span><a href="#">0 Comments</a></span>
-			</div>
-			<p>If your dream employer appears on this list, you’re certainly in good company. But it also means you’re up for some intense competition.</p>
-			<a href="blog-single-post.html" class="button">Read More</a>
+	<!-- Plan #2 -->	
+	<div class="plan color-2 one-third column">
+		<div class="plan-price">
+			<h3>Company</h3>
+			<span class="plan-currency">$</span>
+			<span class="value">59</span>
+		</div>
+		<div class="plan-features">
+			<ul>
+				<li>One Time Fee</li>
+				<li>This Plan Includes 2 Jobs</li>
+				<li>Highlighted Job Post</li>
+				<li>Posted For 60 Days</li>
+			</ul>
+			<a class="button" href="#"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
+		</div>
+	</div>
+			
+	<!-- Plan #3 -->
+	<div class="plan color-1 one-third column">
+		<div class="plan-price">
+			<h3>Enterprise</h3>
+			<span class="plan-currency">$</span>
+			<span class="value">99</span>
+		</div>
+		<div class="plan-features">
+			<ul>
+				<li>One Time Fee</li>
+				<li>This Plan Includes 4 Jobs</li>
+				<li>2 Highlighted Job Posts</li>
+				<li>Posted For 90 Days</li>
+			</ul>
+			<a class="button" href="#"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
 		</div>
 	</div>
 
 </div>
+
+
+
+<!-- Clients Carousel -->
+<h3 class="centered-headline">Clients Who Have Trusted Us <span>The list of clients who have put their trust in us includes:</span></h3>
+<div class="clearfix"></div>
+
+<div class="container">
+
+	<div class="sixteen columns">
+
+		<!-- Navigation / Left -->
+		<div class="one carousel column"><div id="showbiz_left_2" class="sb-navigation-left-2"><i class="fa fa-angle-left"></i></div></div>
+
+		<!-- ShowBiz Carousel -->
+		<div id="our-clients" class="showbiz-container fourteen carousel columns" >
+
+		<!-- Portfolio Entries -->
+		<div class="showbiz our-clients" data-left="#showbiz_left_2" data-right="#showbiz_right_2">
+			<div class="overflowholder">
+
+				<ul>
+					<!-- Item -->
+					<li><img src="https://17314-presscdn-0-16-pagely.netdna-ssl.com/extended/wp-content/uploads/sites/3/2013/07/disqus-logo-final.svg" alt="" /></li>
+					<li><img src="https://17314-presscdn-0-16-pagely.netdna-ssl.com/extended/wp-content/uploads/sites/3/2013/07/dolby-logo-final.svg" alt="" /></li>
+					<li><img src="https://17314-presscdn-0-16-pagely.netdna-ssl.com/extended/wp-content/uploads/sites/3/2013/07/dribbble-logo-final.svg" alt="" /></li>
+					<li><img src="https://17314-presscdn-0-16-pagely.netdna-ssl.com/extended/wp-content/uploads/sites/3/2013/07/optimizely-logo-final.svg" alt="" /></li>
+					<li><img src="https://17314-presscdn-0-16-pagely.netdna-ssl.com/extended/wp-content/uploads/sites/3/2013/07/disqus-logo-final.svg" alt="" /></li>
+					<li><img src="https://17314-presscdn-0-16-pagely.netdna-ssl.com/extended/wp-content/uploads/sites/3/2013/07/dolby-logo-final.svg" alt="" /></li>
+					<li><img src="https://17314-presscdn-0-16-pagely.netdna-ssl.com/extended/wp-content/uploads/sites/3/2013/07/dribbble-logo-final.svg" alt="" /></li>
+					<li><img src="https://17314-presscdn-0-16-pagely.netdna-ssl.com/extended/wp-content/uploads/sites/3/2013/07/optimizely-logo-final.svg" alt="" /></li>
+				</ul>
+				<div class="clearfix"></div>
+
+			</div>
+			<div class="clearfix"></div>
+
+		</div>
+		</div>
+
+		<!-- Navigation / Right -->
+		<div class="one carousel column"><div id="showbiz_right_2" class="sb-navigation-right-2"><i class="fa fa-angle-right"></i></div></div>
+
+	</div>
+
+</div>
+<!-- Container / End -->
 
 
 <?php include('inc/footer.php'); ?>

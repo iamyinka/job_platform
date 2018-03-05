@@ -35,7 +35,8 @@
 	
 		<!-- Logo -->
 		<div id="logo">
-			<h1><a href="index.php"><img src="images/logo-01.png" alt="Job Board" /></a></h1>
+			<!-- <h1><a href="index.php"><img src="images/logo-01.png" alt="Job Board" /></a></h1> -->
+			<h1><a href="index.php"><img src="https://careerfy.net/demo/wp-content/themes/careerfy/images/logo.png" alt="Job Board" /></a></h1>
 		</div>
 
 		<!-- Menu -->
