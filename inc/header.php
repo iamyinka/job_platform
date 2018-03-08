@@ -14,6 +14,7 @@
 
 <!-- CSS
 ================================================== -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/colors/green.css" id="colors">
 
@@ -30,13 +31,13 @@
 <!-- Header
 ================================================== -->
 <header>
-<div class="container">
+<div class="container-fluid" style="padding: 0 2em;">
 	<div class="sixteen columns">
 	
 		<!-- Logo -->
 		<div id="logo">
 			<!-- <h1><a href="index.php"><img src="images/logo-01.png" alt="Job Board" /></a></h1> -->
-			<h1><a href="index.php"><img src="https://careerfy.net/demo/wp-content/themes/careerfy/images/logo.png" alt="Job Board" /></a></h1>
+			<h1><a href="index.php"><img src="../images/jobs-logo.png" alt="Job Board" /></a></h1>
 		</div>
 
 		<!-- Menu -->
@@ -87,8 +88,8 @@
 
 
 			<ul class="float-right">
-				<li><a href="my-account.php#tab2"><i class="fa fa-user"></i> Sign Up</a></li>
-				<li><a href="my-account.php"><i class="fa fa-lock"></i> Log In</a></li>
+				<li class="wow animated slideInDown"><a href="my-account.php#tab2"><i class="fa fa-user"></i> Sign Up</a></li>
+				<li class="wow animated slideInDown"><a href="my-account.php"><i class="fa fa-lock"></i> Log In</a></li>
 			</ul>
 
 		</nav>

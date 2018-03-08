@@ -57,7 +57,7 @@
 		<h3 class="margin-bottom-25">Recent Jobs</h3>
 		<ul class="job-list">
 
-			<li class="highlighted"><a href="job-page.html">
+			<li class="highlighted wow animated fadeInUp"><a href="job-page.html">
 				<img src="https://careerfy.net/demo/wp-content/uploads/employer-07-210x204.png" alt="">
 				<div class="job-list-content">
 					<h4>Marketing Coordinator - SEO / SEM Experience <span class="full-time">Full-Time</span></h4>
@@ -71,7 +71,7 @@
 				<div class="clearfix"></div>
 			</li>
 
-			<li><a href="job-page.html">
+			<li class="wow animated slideInUp"><a href="job-page.html">
 				<img src="https://careerfy.net/demo/wp-content/uploads/employer-14-210x204.png" alt="">
 				<div class="job-list-content">
 					<h4>Core PHP Developer for Site Maintenance <span class="part-time">Part-Time</span></h4>
@@ -85,7 +85,7 @@
 				<div class="clearfix"></div>
 			</li>
 
-			<li><a href="job-page.html">
+			<li class="wow animated slideInUp"><a href="job-page.html">
 				<img src="https://careerfy.net/demo/wp-content/uploads/employer-20-210x204.png" alt="">
 				<div class="job-list-content">
 					<h4>Restaurant Team Member - Crew <span class="full-time">Full-Time</span></h4>
@@ -99,7 +99,7 @@
 				<div class="clearfix"></div>
 			</li>
 
-			<li><a href="job-page.html">
+			<li class="wow animated slideInUp"><a href="job-page.html">
 				<img src="https://careerfy.net/demo/wp-content/uploads/employer-02-210x204.png" alt="">
 				<div class="job-list-content">
 					<h4>Power Systems User Experience Designer  <span class="internship">Internship</span></h4>
@@ -113,7 +113,7 @@
 				<div class="clearfix"></div>
 			</li>
 
-			<li><a href="job-page.html">
+			<li class="wow animated slideInUp"><a href="job-page.html">
 				<img src="https://careerfy.net/demo/wp-content/uploads/employer-12-210x204.png" alt="">
 				<div class="job-list-content">
 					<h4>iPhone / Android Music App Development <span class="temporary">Temporary</span></h4>
@@ -152,7 +152,7 @@
 					<ul>
 
 						<li>
-							<div class="job-spotlight">
+							<div class="job-spotlight wow animated slideInUp">
 								<a href="#"><h4>Social Media: Advertising Coordinator <span class="part-time">Part-Time</span></h4></a>
 								<span><i class="fa fa-briefcase"></i> Mates</span>
 								<span><i class="fa fa-map-marker"></i> New York</span>
@@ -244,12 +244,12 @@
 <!-- Recent Posts -->
 <div class="container">
 	<div class="sixteen columns">
-		<h3 class="margin-bottom-25">Job Plans & Pricing</h3>
+		<h3 class="margin-bottom-25">Job Plans &amp; Pricing</h3>
 	</div>
 
 
 	<!-- Plan #1 -->
-	<div class="plan color-1 one-third column">
+	<div class="plan color-1 one-third column wow animated slideInLeft">
 		<div class="plan-price">
 			<h3>Start Up</h3>
 			<span class="plan-currency">$</span>
@@ -268,7 +268,7 @@
 	</div>
 
 	<!-- Plan #2 -->	
-	<div class="plan color-2 one-third column">
+	<div class="plan color-2 one-third column wow animated slideInDown">
 		<div class="plan-price">
 			<h3>Company</h3>
 			<span class="plan-currency">$</span>
@@ -286,7 +286,7 @@
 	</div>
 			
 	<!-- Plan #3 -->
-	<div class="plan color-1 one-third column">
+	<div class="plan color-1 one-third column wow animated slideInRight">
 		<div class="plan-price">
 			<h3>Enterprise</h3>
 			<span class="plan-currency">$</span>

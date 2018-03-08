@@ -1,9 +1,3 @@
-/*
-* Author: Vasterad
-* URL: http://purethemes.net
-*/
-
-
 /* ------------------------------------------------------------------- */
 /* Import Section
 ---------------------------------------------------------------------- */
@@ -58,7 +52,7 @@ header {
 	float: left;
 }
 
-#logo img { margin-top: 24px; }
+#logo img { margin-top: 24px; width: 2em;}
 
 
 /* Full-Width Header Styles */
