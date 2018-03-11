@@ -6,7 +6,19 @@
 <!-- Basic Page Needs
 ================================================== -->
 <meta charset="utf-8">
-<title>Job Platform</title>
+<title>
+<?php  
+
+$default = "Job Platform :: Welcome";
+
+if ($page_title) {
+	echo $page_title;
+} else {
+	echo $default;
+}
+
+?>
+</title>
 
 <!-- Mobile Specific Metas
 ================================================== -->

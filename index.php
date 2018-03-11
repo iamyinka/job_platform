@@ -1,4 +1,11 @@
-<?php include('inc/header.php'); ?>
+<?php 
+
+$page_title = "Home:: Welcome To Job Platform";
+
+include('inc/header.php'); 
+
+
+?>
 
 <!-- Slider
 ================================================== -->

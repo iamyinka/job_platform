@@ -1,4 +1,9 @@
-<?php include('inc/header.php'); ?>
+<?php 
+
+$page_title = "My Account";
+include('inc/header.php'); 
+
+?>
 
 
 <!-- Titlebar

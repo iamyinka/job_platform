@@ -1,4 +1,9 @@
-<?php include('inc/contact-header.php'); ?>
+<?php 
+
+$page_title = "Job Platform :: Contact Us";
+include('inc/header.php'); 
+
+?>
 
 
 

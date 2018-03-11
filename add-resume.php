@@ -1,4 +1,9 @@
-<?php include('inc/header.php'); ?>
+<?php 
+
+$page_title = "Job Platform :: Add Resume";
+include('inc/header.php'); 
+
+?>
 
 
 <!-- Titlebar

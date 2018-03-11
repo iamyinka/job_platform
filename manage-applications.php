@@ -1,4 +1,9 @@
-<?php include('inc/header.php'); ?>
+<?php 
+
+$page_title = "Job Platform :: Manage Applications";
+include('inc/header.php'); 
+
+?>
 
 
 <!-- Titlebar
